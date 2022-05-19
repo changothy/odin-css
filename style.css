@@ -1,3 +1,5 @@
+/* Styling */
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -13,9 +15,16 @@ h1.main-text {
     color: #F0FAF8;
 }
 
-.hero-content p {
+.hero-content p,
+.nav ul {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -43,4 +52,41 @@ button,
     font-weight: light;
     font-style: italic;
     color: #1F2937
+}
+
+
+/* Layout */
+
+/* body {
+    padding: 0px 150px;
+} */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    padding-left: 20px;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 40%;
 }
