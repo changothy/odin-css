@@ -37,6 +37,20 @@ button,
     background-color: #3882F6;
 }
 
+button {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #E5E7EB;
+    padding: 8px 25px;
+    border: 0;
+}
+
+/* Removes the button 3-D effect */
+button:active {
+    border-style: outset;
+}
+
 .information h1 {
     font-size: 36px;
     font-weight: extra-bold;
@@ -85,8 +99,19 @@ button,
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 150px 0px;
 }
 
 .hero-content {
-    max-width: 40%;
+    /* max-width: 40%; */
+    flex-grow: 1;
+}
+
+.hero-image {
+    flex-grow: 1;
+}
+
+.hero-image img {
+    width: 600px;
+    object-fit: contain;
 }
