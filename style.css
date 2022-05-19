@@ -99,6 +99,7 @@ button:active {
     display: flex;
     gap: 40px;
     align-items: center;
+    justify-content: space-between;
     padding: 150px 0px;
 }
 
@@ -114,4 +115,29 @@ button:active {
 .hero-image img {
     width: 600px;
     object-fit: contain;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardlist {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.card {
+    max-width: 250px;
+}
+
+.card img {
+    width: 250px;
+}
+
+.card p {
+    text-align: center;
 }
