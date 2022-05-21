@@ -63,10 +63,22 @@ button:active {
 
 .quote blockquote {
     font-size: 36px;
-    font-weight: light;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937
 }
+
+.quote p {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.footer {
+    color: #F9FAF8;
+}
+
+
+
 
 
 /* Layout */
@@ -144,4 +156,21 @@ button:active {
 
 .card img {
     width: 150px;
+}
+
+.quote {
+    padding: 80px 250px;
+}
+
+.quote p {
+    text-align: right;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
