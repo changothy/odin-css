@@ -124,10 +124,18 @@ button:active {
     align-items: center;
 }
 
+.information h1 {
+    padding: 60px 0px;
+}
+
 .cardlist {
     display: flex;
     flex-direction: row;
     gap: 100px;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: center;
+    text-align: center;
 }
 
 .card {
@@ -135,9 +143,5 @@ button:active {
 }
 
 .card img {
-    width: 250px;
-}
-
-.card p {
-    text-align: center;
+    width: 150px;
 }
