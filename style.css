@@ -73,6 +73,20 @@ button:active {
     font-size: 24px;
 }
 
+.cta {
+    color: #F9FAF8;
+    border-radius: 8px;    
+}
+
+.cta-header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
+}
+
 .footer {
     color: #F9FAF8;
 }
@@ -134,10 +148,11 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 60px 0px;
 }
 
 .information h1 {
-    padding: 60px 0px;
+    padding-bottom: 30px;
 }
 
 .cardlist {
@@ -166,7 +181,19 @@ button:active {
     text-align: right;
 }
 
+.cta {
+    display: flex;
+    margin: 80px 100px;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
 
+.cta p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 .footer {
     display: flex;
